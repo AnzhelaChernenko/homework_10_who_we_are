@@ -1,0 +1,162 @@
+
+.col-md {
+    background-color: #f3e2dd;
+    width: 100%;
+    height: 100vh;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.container{
+    height: 100vh;
+}
+.photo{
+    position: absolute;
+    top: 150px;
+}
+
+img{
+    width: 255px;
+    height: 260px;
+}
+
+
+.photo__alex,.photo__elena,.photo__john,.photo__lily{
+    color: black;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 700;
+    }
+
+
+.photo__name{
+    font-family: 'Lato', sans-serif;
+    line-height: 18px;
+    color: #282528;
+    position: absolute;
+    top: 280px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.description{
+    font-size: 16px;
+    left: 20px;
+    top: -130px;
+    font-weight: 100;
+}
+
+.header{
+    font-size: 34px;
+    letter-spacing: 5px;
+    color: #3c3c3c;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    }
+.header__who_we_are {
+    display: block;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+}
+
+hr{
+    border: none; /* Убираем границу для браузера Firefox */
+   background-color: #dddbdb;
+    position: absolute;
+    top: 150px;
+    width: 70px;
+    left: 47.7%;
+    z-index: 2;
+}
+
+.header__description{
+    position: absolute;
+    z-index: 2;
+    font-size: 16px;
+    letter-spacing: normal;
+    font-weight: 100;
+    top: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.photo__holder{
+    background-color: rgba(44,168,198, 1);
+    width: calc(100% - 30px);
+    height: 100%;
+    position: absolute;
+    top: -1px;
+    z-index: -1;
+
+}
+
+.social{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.social__tw{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.social__icons{
+    width: 50px;
+    height: 50px;
+    background-color: #6bbccf;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.photo__john:hover .photo__holder{
+    cursor: pointer;
+    z-index: 3;
+}
+.photo__alex:hover .photo__holder{
+    cursor: pointer;
+    z-index: 3;
+}
+.photo__elena:hover .photo__holder{
+    cursor: pointer;
+    z-index: 3;
+}
+.photo__lily:hover .photo__holder{
+    cursor: pointer;
+    z-index: 3;
+}
+
+.social__tw:hover{
+    cursor: pointer;
+    transform: rotate(20deg);
+}
+
+.social__f:hover{
+    cursor: pointer;
+    transform: rotate(20deg);
+}
+
+.social__g:hover{
+    cursor: pointer;
+    transform: rotate(20deg);
+}
+
+
+
+
+
+
+
+
